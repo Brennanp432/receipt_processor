@@ -20,10 +20,10 @@ Before running this project, make sure you have the following installed on your 
 1. **Clone the Repository**
 
 2. **Build Docker Image**
-   docker build -t receipt_processor_patrickbrennan
+   `docker build -t receipt_processor_patrickbrennan`
 
 3. **Run Docker Image**
-   docker run -p 3000:3000 receipt_processor_patrickbrennan
+   `docker run -p 3000:3000 receipt_processor_patrickbrennan`
 
 This will start the API, and you can access it at http://localhost:3000.
 
